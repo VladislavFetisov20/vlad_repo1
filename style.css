@@ -1,22 +1,20 @@
+body{
+    background: url(img/1623725308_47-krasivosti_pro-p-seraya-mishka-zhivotnie-krasivo-foto-59.jpg) no-repeat ;
+    background-size: 100%;
+}
+
+
 header {
     background-color: blueviolet;
     position: sticky;
     top: 0px;
     height: 100px;
 }
-aside {
-    background-color: aqua;
-    width: 25%;
-    position: sticky;
+
+nav {
+     position: sticky;
     top: 100px;
     float: left;
-    margin-left: -100%;
-}
-nav {
-    background-color: chartreuse; width: 25%; 
-    position: sticky;
-    top: 100px;
-    float: right;
     margin-left: -100%;
 
 }
@@ -33,3 +31,24 @@ p {
 main { width: 50%;
     margin: 0 25%;
     float: left; }
+    #menu ul {
+        padding: 0px;
+    }
+    #menu ul li {
+        text-align: center;
+        border-top: 1px solid yellow;
+        border-bottom: 1px solid rgb(3, 252, 157);
+        width: 250px;
+        list-style-type: none;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        line-height: 30px;
+        color: rgb(255, 0, 0);
+        height:30px;
+        display: block;
+    }
+    #menu ul li a:hover {
+    background: #cecccc;
+    color: rgb(56, 38, 38);
+    }
